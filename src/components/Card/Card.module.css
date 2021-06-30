@@ -1,0 +1,99 @@
+.container {
+  width: 216px;
+  height: 500px;
+}
+
+.imageWrapper,
+.imageWrapper .image {
+  width: 216px;
+  height: 350px;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapper .new {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  width: 45px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 60%);
+  border-radius: 4px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper .icon {
+  position: absolute;
+  top: 86%;
+  left: 75%;
+
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 60%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+
+  transition-duration: 0.3s;
+}
+
+.imageWrapper .icon:hover {
+  background-color: rgba(255, 255, 255, 80%);
+}
+
+.imageWrapper .icon img {
+  width: 18px;
+  height: 16px;
+}
+
+.name {
+  margin: 15px auto 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #212121;
+}
+
+.colorData {
+  display: flex;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 5px 5px;
+}
+
+.colorNum {
+  font-size: 12px;
+}
+
+.prices * {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.oldPrice {
+  color: #212121;
+  text-decoration: line-through;
+}
+
+.newPrice {
+  color: #b00020;
+  margin-left: 10px;
+}

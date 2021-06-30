@@ -1,0 +1,15 @@
+.container h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #4f5255;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.cardList {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
+  max-width: 70%;
+  margin: auto;
+}

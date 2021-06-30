@@ -1,0 +1,55 @@
+.container {
+  background-color: #f5f7f6;
+  padding: 60px 0;
+}
+
+.footerLinks {
+  display: flex;
+}
+
+.whiteBackground {
+  background-color: white;
+  width: 80%;
+  padding: 0 5%;
+  height: 320px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paymentList {
+  display: flex;
+  list-style-type: none;
+}
+
+.paymentList * {
+  margin-right: 0 10px;
+}
+
+.whiteBackground .heading {
+  font-size: 14px;
+  color: black;
+  margin: 30px 0;
+}
+
+.whiteBackground ul,
+.footerLinks ul {
+  list-style-type: none;
+}
+
+.whiteBackground ul li,
+.footerLinks ul li {
+  margin: 16px 0;
+}
+
+.social {
+  width: 20%;
+}
+
+.footer {
+  width: 85%;
+  margin: auto;
+  margin-bottom: -60px;
+}

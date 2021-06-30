@@ -1,0 +1,28 @@
+.container {
+  height: 40px;
+  width: 100%;
+  background-color: #3a416f;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .lang {
+  margin: 0 20px;
+}
+
+.container .lang * {
+  margin: 0 5px;
+}
+
+.container .auth * {
+  margin: 0 20px;
+}

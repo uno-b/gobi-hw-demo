@@ -1,0 +1,55 @@
+.container {
+  margin-bottom: 150px;
+}
+
+.container h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.showcaseImages {
+  display: flex;
+}
+
+.card,
+.showcaseImage {
+  width: 32vw;
+  height: 700px;
+  object-fit: cover;
+}
+
+.card:nth-child(odd) {
+  margin-top: -150px;
+}
+
+.card {
+  position: relative;
+  margin: 5px;
+}
+
+.info {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  top: 90%;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info span {
+  color: white;
+  font-size: 30px;
+}
+
+.arrow {
+  width: 42px;
+  height: 26px;
+  display: inline;
+}
