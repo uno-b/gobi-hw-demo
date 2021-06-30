@@ -9,7 +9,28 @@
 .cardList {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
 
   max-width: 70%;
   margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .cardList {
+    grid-template-columns: 50% 50%;
+    max-width: 90%;
+  }
+
+  .cardList > *:nth-child(3),
+  .cardList > *:nth-child(4),
+  .cardList > *:nth-child(7),
+  .cardList > *:nth-child(8) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .cardList {
+    max-width: 90%;
+  }
 }

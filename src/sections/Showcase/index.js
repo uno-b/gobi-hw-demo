@@ -12,21 +12,12 @@ import styles from './Showcase.module.css';
 const index = ({ men, women }) => {
   return (
     <div className={styles.container}>
-      <h2>MEN</h2>
+      <h2>{women ? 'WOMEN' : men && 'MEN'}</h2>
       <div className={styles.showcaseImages}>
         <div className={styles.card}>
-          <img src={man1} alt='White Man' className={styles.showcaseImage} />
-          <div className={styles.info}>
-            <span>CARDIGANS</span>
-            <Link to='/'>
-              <img src={arrow} alt='Arrow' className={styles.arrow} />
-            </Link>
-          </div>
-        </div>
-        <div className={styles.card}>
           <img
-            src={man2}
-            alt='Mongolian Man'
+            src={women ? woman1 : men && man1}
+            alt={women ? 'Woman' : men && 'Man'}
             className={styles.showcaseImage}
           />
           <div className={styles.info}>
@@ -37,7 +28,24 @@ const index = ({ men, women }) => {
           </div>
         </div>
         <div className={styles.card}>
-          <img src={man1} alt='White Man' className={styles.showcaseImage} />
+          <img
+            src={women ? woman2 : men && man2}
+            alt={women ? 'Woman' : men && 'Man'}
+            className={styles.showcaseImage}
+          />
+          <div className={styles.info}>
+            <span>CARDIGANS</span>
+            <Link to='/'>
+              <img src={arrow} alt='Arrow' className={styles.arrow} />
+            </Link>
+          </div>
+        </div>
+        <div className={`${styles.card} ${styles.hide}`}>
+          <img
+            src={women ? woman1 : men && man1}
+            alt={women ? 'Woman' : men && 'Man'}
+            className={styles.showcaseImage}
+          />
           <div className={styles.info}>
             <span>CARDIGANS</span>
             <Link to='/'>

@@ -16,8 +16,8 @@ function App() {
     <Router>
       <Hero />
       <Winter />
-      <Showcase />
-      <Showcase />
+      <Showcase women={true} />
+      <Showcase men={true} />
       <GetAndGift />
       <About />
       <Subscribe />

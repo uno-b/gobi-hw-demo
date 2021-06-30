@@ -1,5 +1,5 @@
 .container {
-  margin-bottom: 150px;
+  margin: 150px 0;
 }
 
 .container h2 {
@@ -52,4 +52,24 @@
   width: 42px;
   height: 26px;
   display: inline;
+}
+
+@media only screen and (max-width: 800px) {
+  .hide {
+    display: none;
+  }
+
+  .showcaseImages {
+    margin: auto;
+  }
+
+  .card,
+  .showcaseImage {
+    width: 45vw;
+    margin: 0 5px;
+  }
+
+  .card:nth-child(odd) {
+    margin-top: 0;
+  }
 }

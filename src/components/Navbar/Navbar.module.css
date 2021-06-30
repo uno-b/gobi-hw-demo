@@ -18,6 +18,16 @@
   width: 33%;
 }
 
+.mobileMenuWrapper {
+  width: 33%;
+  display: none;
+}
+
+.mobileMenu {
+  width: 20px;
+  height: 15px;
+}
+
 .menu {
   list-style-type: none;
   display: flex;
@@ -90,4 +100,18 @@
   height: 20px;
   margin: 0;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mobileMenuWrapper {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .search form {
+    display: none;
+  }
 }

@@ -26,3 +26,13 @@
 .container .auth * {
   margin: 0 20px;
 }
+
+@media only screen and (max-width: 800px) {
+  .container .return {
+    display: none;
+  }
+
+  .auth input {
+    display: none;
+  }
+}

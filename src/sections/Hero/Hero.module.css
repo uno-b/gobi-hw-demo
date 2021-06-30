@@ -77,3 +77,50 @@
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+  .callToAction {
+    background: linear-gradient(to bottom, #ffffffcc, #eef3ffce);
+    border-radius: 10px;
+    width: 80%;
+    height: 400px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .callToAction h1 {
+    color: black;
+    font-size: 60px;
+  }
+
+  .callToAction img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .part1 {
+    font-size: 20px;
+  }
+
+  .part2 {
+    font-size: 85px;
+  }
+
+  .part3 {
+    font-size: 65px;
+  }
+
+  .part4 {
+    font-size: 34px;
+  }
+
+  .text * {
+    color: black;
+  }
+
+  .callToAction button {
+    background-color: black;
+    color: white;
+  }
+}

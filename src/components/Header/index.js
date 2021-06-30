@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import globe from '../../images/icons/globe-white.png';
 import styles from './Header.module.css';
@@ -16,7 +16,7 @@ const index = () => {
         <img src={globe} alt='Globe Icon' />
         <span>Global - English</span>
       </div>
-      <div>
+      <div className={styles.return}>
         RETURNING AN ORDER?{' '}
         <Link to='/' style={{ color: 'white' }}>
           Click for more info

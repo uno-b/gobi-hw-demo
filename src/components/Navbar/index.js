@@ -5,6 +5,7 @@ import cross from '../../images/icons/Cross.png';
 import search from '../../images/icons/Search.png';
 import heart from '../../images/icons/heart.png';
 import shopping from '../../images/icons/shopping.png';
+import mobileMenu from '../../images/icons/mobile-menu.png';
 import styles from './Navbar.module.css';
 
 const removeDefaultLinkStyle = {
@@ -15,6 +16,9 @@ const removeDefaultLinkStyle = {
 const index = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.mobileMenuWrapper}>
+        <img src={mobileMenu} alt='Mobile Menu' className={styles.mobileMenu} />
+      </div>
       <ul className={styles.menu}>
         <li>
           <Link to='/' style={removeDefaultLinkStyle}>
