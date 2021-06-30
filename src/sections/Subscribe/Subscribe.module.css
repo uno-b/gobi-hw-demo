@@ -55,3 +55,23 @@
   margin: 16px auto;
   line-height: 13px;
 }
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+  .subtitle {
+    width: 250px;
+    margin: auto;
+  }
+
+  .form {
+    width: 400px;
+    margin: 20px auto;
+  }
+
+  .info {
+    width: 250px;
+    margin: auto;
+  }
+}

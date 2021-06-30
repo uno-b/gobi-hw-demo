@@ -148,7 +148,7 @@ const index = () => {
           </ul>
         </div>
         <ul className={styles.social}>
-          <li className={styles.heading}>FOLLOW US</li>
+          <li className={`${styles.heading} ${styles.hide}`}>FOLLOW US</li>
           <li>
             <Link style={removeLinkStyle}>
               <img src={fb} alt='Facebook' />

@@ -53,3 +53,38 @@
   margin: auto;
   margin-bottom: -60px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding: 20px 0;
+  }
+
+  .whiteBackground {
+    height: fit-content;
+    background: none;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 0;
+  }
+
+  .social * {
+    margin: 0 10px;
+  }
+
+  .hide {
+    display: none;
+  }
+}

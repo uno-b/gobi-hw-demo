@@ -19,7 +19,7 @@ const index = () => {
         </p>
         <button>READ MORE</button>
       </div>
-      <div className={styles.images}>
+      <div className={`${styles.images} ${styles.hide}`}>
         <img src={twoWomen} alt='Two Women' />
         <img src={twoWomen} alt='Two Women' />
       </div>
